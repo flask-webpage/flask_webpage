@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* a 태그에 대한 스타일 설정 */
+        a { text-decoration: none; }
+        /*
+            사용법 (https://aboooks.tistory.com/88)
+            무조건 순서를 지켜야함!
+            a:link → a:visited → a:hover → a:active
+        */
+        a:link { color: blue; } /* 링크 방문 전 */
+        a:visited { color: red; } /* 링크 방문 후 */
+        a:hover { color: green; } /* 링크에 마우스 오버(마우스를 가져다 대는 행위)했을 때 */
+        a:active { color: orange; } /* 링크 클릭 시 */
+    </style>
+</head>
+<body>
+    <!--
+        1-1. <a> 태그 기능 : 지정한 주소의 사이트로 이동
+        1-2. href 속성을 이용해서 주소를 지정해준다.
+        2. <a>'이 공간에다가 글씨나 이미지를 넣어준다.'</a>
+            → 글씨나 이미지를 넣으면 그 글씨 또는 이미지를 클릭시 지정한 사이트로 이동 가능
+    -->
+    <a href="https://www.naver.com">네이버로 이동</a>
+</body>
+</html>
