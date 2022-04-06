@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나와 가장 잘 어울리는 League of Legend 챔피언은?</title>
+
+    <link rel="stylesheet" href="css/common.css"> <!-- 스타일 적용 -->
+    <link rel="stylesheet" href="css/font.css"> <!-- 폰트 적용 -->
+
+    <script>
+        // 시작하기 버튼 클릭하면 다음 화면으로 이동
+        var sb = document.getElementsByClassName('sb');
+        
+        function startClick(){
+            alert('시작하기 버튼 클릭');
+        }
+    </script>
+</head>
+<body>
+    <!-- 컨테이너 -->
+    <div class="container">
+        <!-- 제목 -->
+        <div class="title">
+            나와 가장 잘 어울리는 <span class="title_text">League of Legend</span> 챔피언은?
+        </div>
+
+        <!-- 내용 -->
+        <div class="content">
+            <div>
+                <img src="images/yuumi tumblr.gif" class="index_img" alt="유미">
+                <img src="images/amumu-sad.gif" class="index_img" alt="아무무">
+            </div>
+        </div>
+
+        <!-- 시작하기 버튼 -->
+        <div class="start_button">
+            <input type="button" class="sb" value="시작하기" onclick="startClick()">
+        </div>
+    </div>
+
+</body>
+</html>

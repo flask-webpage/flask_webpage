@@ -1,0 +1,54 @@
+/************ body **************/
+body{
+    background-color: #ffe7ff;
+}
+
+/************ div **************/
+.container{
+    position: relative;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #333;
+    background-color: #FFFFCC;
+    font-family: 'LeeSeoyun';
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.content{
+    margin: 100px 0px;
+}
+
+.start_button{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/************ span **************/
+.title_text{
+    color: #46AAEB;
+}
+
+/************ button **************/
+.sb{
+    background-color: #fff;
+    border: 3px solid #1478FF;
+    border-radius: 10px;
+    width: 250px;
+    height: 70px;
+    font-family: 'HSYuji-Regular';
+    font-size: 25px;
+}
+
+/************ img **************/
+.index_img{
+    width: 300px;
+    margin: 0 70px;
+}
