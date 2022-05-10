@@ -1,5 +1,7 @@
 {% extends "score.html" %}
 {% block content %}
+    <h2>score_student.html</h2>
+    <hr>
     <h1>{{ name }} 님의 성적</h1>
     <ul>
         {% for key, value in score | dictsort %}

@@ -11,7 +11,7 @@ student_data = {
 
 @app.route('/')
 def index():
-    return render_template('score_main.html', template_student = student_data)
+    return render_template('score_main.html', template_student = student_data) # HTML과 링크, 파라미터 전송
 
 @app.route('/score/<int:student_id>')
 def score(student_id):
