@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask
 app = Flask(__name__)
 
 # 기초 문법(시작하자마자 보이는 인덱스 페이지 → '/')

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 기초 2(document.getElementById, click event)</title>
+
+    <script>
+        window.onload = function(){
+            let a = 10; // [파이썬] a = 10
+            let b = 20; // [파이썬] b = 20
+            let c = a + b; // [파이썬] c = a + b
+
+            console.log(c); // [파이썬] print(c) # 30
+        
+            // 가져와라 / 요소를 / ~에 의한 / 아이디
+            // id요소(속성) 중에서 bton이라는 것을 가지고 있는 태그를 가져와라
+            let bton = document.getElementById('btonnn');
+            console.log(bton); // <button id="bton">여기 클릭하면 정답이 바뀝니다.</button>
+            let ppp = document.getElementById('ppp');
+            console.log(ppp);
+
+            bton.onclick = function(){ // 클릭 이벤트
+                ppp.innerText = c;
+                ppp.style.color='red';
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <h1>자바스크립트 기초 2(document.getElementById, click event)</h1>
+    <a href="/basic0">자바스크립트 기초 1(변수 및 함수 선언, if문, for문, console.log)</a> <br>
+    <a href="/basic1">자바스크립트 기초 2(document.getElementById, click event)</a> <br>
+    <a href="/basic2">자바스크립트 기초 3(getElementById, getElementsByClassName, getElementsByName)</a> <br>
+    <a href="/basic3">자바스크립트 기초 4(alert, confirm, prompt)</a> <br>
+    <br><br><br>
+
+    <p id="ppp">정답</p>
+    <button id="bton">여기 클릭하면 정답이 바뀝니다.</button>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 기초 3(getElementById, getElementsByClassName, getElementsByName)</title>
+
+    <!-- Javascript -->
+    <script>
+        var plus_num = 20;
+
+        window.onload = function(){
+            let bton10 = document.getElementById('bton10');
+            let bton20 = document.getElementsByClassName('bton20');
+            let bton30 = document.getElementsByName('bton30');
+
+            console.log(bton10);
+            console.log(bton20);
+            console.log(bton30);
+
+            // console.log(bton10.value);
+            // console.log(bton20[0].innerText);
+            // console.log(bton30[0].innerText);
+        }
+    </script>
+</head>
+<body>
+    <h1>자바스크립트 기초(getElementById, getElementsByClassName, getElementsByName)</h1>
+    <a href="/basic0">자바스크립트 기초 1(변수 및 함수 선언, if문, for문, console.log)</a> <br>
+    <a href="/basic1">자바스크립트 기초 2(document.getElementById, click event)</a> <br>
+    <a href="/basic2">자바스크립트 기초 3(getElementById, getElementsByClassName, getElementsByName)</a> <br>
+    <a href="/basic3">자바스크립트 기초 4(alert, confirm, prompt)</a> <br>
+    <br><br><br>
+
+    <button id="bton10" value="10">10</button>
+    <button class="bton20">20</button>
+    <button name="bton30">30</button>
+</body>
+</html>

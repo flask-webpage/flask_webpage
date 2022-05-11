@@ -7,7 +7,7 @@ app = Flask(__name__)       # 2. 플라스크 객체를 생성한다. (__name__�
 
 @app.route('/')             # 3. 기본서버 127.0.0.1:5000 뒤에 붙는 주소를 적어준다.
 def index():                # 4. 위의 주소를 호출 시 보여 줄 것을 함수로 작성해 준다. 중복되지 않도록만 적어주면된다.
-    return 'Hello world'    # 5. 문자열이 출력된다.
+    return '<h1>Hello world</h1>'    # 5. 문자열이 출력된다.
 
 @app.route('/login')
 def login():
